@@ -1,0 +1,18 @@
+.loginName{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.loginName{
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+}
+.loginName h1{
+    width: 80%;
+}
+.logout{
+    text-align: center;
+}

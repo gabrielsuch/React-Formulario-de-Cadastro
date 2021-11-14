@@ -1,0 +1,47 @@
+.box{
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.box .register{
+    width: 90%;
+    margin: auto;
+    background-color: #313131;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+}
+input{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.btnRegister{
+    margin: 10px 0px;
+    text-align: center;
+}
+button{
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+span{
+    color: rgb(204, 26, 26);
+}
+
+@media (max-width: 1000px){
+    .box{
+        width: 60%;
+    }
+}
+@media (max-width: 700px){
+    .box{
+        width: 80%;
+    }
+}
